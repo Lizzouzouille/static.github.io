@@ -1,3 +1,140 @@
-h1 {
-  color: red;
+body{
+
+	background: #ED213A;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-family: arial;
+	text-align: center;
+	margin: 0;
+}
+
+h1{
+	color: pink;
+	font-family: 'Dancing Script', cursive;
+}
+
+h2{
+	color: pink;
+}
+
+ul{
+	text-align: left;
+}
+
+ol{
+	text-align: left;
+}
+
+.p1{
+	font-size: 20px ;
+	color:white;
+}
+
+.p2{
+	font-weight: bold;
+	color: white;
+}
+
+h4{
+	color: white;
+}
+
+ol{
+	color: white;
+}
+
+.cadre{
+	background-image: url("https://cdn.pixabay.com/photo/2018/02/08/22/27/flower-3140492_960_720.jpg");
+	background-position: center;
+	background-size: cover;
+	border: 3px solid white;
+	margin: 50px 80px 50px 80px;
+	padding: 20px;
+	border-radius: 100px;
+
+}
+
+.btn {
+	text-decoration: none;
+	color:white;
+	background: pink;
+}
+
+.btn:hover {
+	background: blue;
+}
+
+
+.cosmo {
+	width: 200px;
+	height:200px;
+	object-fit: cover;
+	border-radius: 50%;
+	box-shadow: 5px 5px 10px grey;
+}
+
+.cosmo:hover {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.logo{
+	height:70px;
+}
+
+.navbar{
+	background:white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links{
+	width:50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.link{
+	background: white;
+	color: black;
+}
+
+.desc{
+	background: pink;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.desc-title{
+	color: black;
+}
+
+.cocktail-icon{
+	font-size: 40px;
+	color: pink;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
