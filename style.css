@@ -1,140 +1,186 @@
-body{
-
-	background: #ED213A;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-	font-family: arial;
-	text-align: center;
-	margin: 0;
-}
-
-h1{
-	color: pink;
-	font-family: 'Dancing Script', cursive;
-}
-
-h2{
-	color: pink;
-}
-
-ul{
-	text-align: left;
-}
-
-ol{
-	text-align: left;
-}
-
-.p1{
-	font-size: 20px ;
-	color:white;
-}
-
-.p2{
-	font-weight: bold;
-	color: white;
-}
-
-h4{
-	color: white;
-}
-
-ol{
-	color: white;
-}
-
-.cadre{
-	background-image: url("https://cdn.pixabay.com/photo/2018/02/08/22/27/flower-3140492_960_720.jpg");
-	background-position: center;
-	background-size: cover;
-	border: 3px solid white;
-	margin: 50px 80px 50px 80px;
-	padding: 20px;
-	border-radius: 100px;
-
-}
-
-.btn {
-	text-decoration: none;
-	color:white;
-	background: pink;
-}
-
-.btn:hover {
-	background: blue;
-}
-
-
-.cosmo {
-	width: 200px;
-	height:200px;
-	object-fit: cover;
-	border-radius: 50%;
-	box-shadow: 5px 5px 10px grey;
-}
-
-.cosmo:hover {
-	width: 300px;
-	height: 300px;
-	object-fit: cover;
-}
-
-.logo{
-	height:70px;
-}
-
-.navbar{
-	background:white;
+.Navbar {
+	background:#976D9E;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	width: 100%;
 }
 
-.links{
+p1 {
+	font-family: 'Amatic SC', cursive;
+}
+
+p2 {
+	font-family: 'Amatic SC', cursive;
+}
+
+p3 {
+	font-family: 'Amatic SC', cursive;
+}
+
+p4 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+}
+
+.links {
 	width:50%;
 	display: flex;
 	justify-content: space-around;
+	font-family: 'Swanky and Moo Moo', cursive;
 }
 
-.link{
-	background: white;
-	color: black;
+.logo {
+	height: 70px;
 }
 
-.desc{
-	background: pink;
+.modal-body {
+	font-family: 'Amatic SC', cursive;
+}
+
+.modal-title {
+	font-family: 'Swanky and Moo Moo', cursive;
+}
+
+.Boutique {
+	background-image: url("images/fond.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.catalogue: hover {
+	width: 300px;
+	height: 387px;
+	object-fit: cover;
+}
+
+.cadre {
+	padding: 50px;
+	font-family: 'Swanky and Moo Moo', cursive;
+}
+
+.Offres {
+	background-color: #b0f2ff;
+}
+
+.titre-offre {
+	text-align: center;
+	font-family: 'Swanky and Moo Moo', cursive;
+	color: #976D9E;
+}
+
+.carousel-inner {
+    margin-left: auto; 
+    margin-right: auto; 
+	}
+
+.crok {
+	width: 200px;
+	height: 200px;
+}
+
+.loutre {
+	width: 200px;
+	height: 200px;
+}
+
+.ours {
+	width: 200px;
+	height: 200px;
+}
+
+.nous {
+	text-align: center;
+	background-color: #b0f2ff;
+	font-family: 'Swanky and Moo Moo', cursive;
+	margin-bottom: 0px;
+	color : #976D9E;
+}
+
+.Team {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
+	width: 100%;
+	padding: 20px 20px;
+	background-color: #b0f2ff;
 }
 
-.desc-title{
-	color: black;
+.origine-titre {
+	font-family: 'Swanky and Moo Moo', cursive;
+	color : #976D9E;
 }
 
-.cocktail-icon{
-	font-size: 40px;
-	color: pink;
+.valeurs-titre {
+	font-family: 'Swanky and Moo Moo', cursive;
+	color : #976D9E;
 }
 
-.banner {
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
+.Ambition-titre {
+	font-family: 'Swanky and Moo Moo', cursive;
+	color : #976D9E;
 }
 
-.banner h1 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
+body {
+  background-color: #f4ede3;
 }
 
-.banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+.footer {
+	background: #976D9E;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	color: lightgrey;
+	padding: 20px 20px;
+}
+
+.name {
+	font-family: 'Swanky and Moo Moo', cursive;
+}
+
+.horaire {
+	font-family: 'Swanky and Moo Moo', cursive;
+}
+
+li {
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+}
+
+.inscrirenewsletter {
+	font-family: 'Swanky and Moo Moo', cursive;
+	color : #976D9E;
+}
+
+.contenunewsletter {
+	font-family: 'Amatic SC', cursive;
+}
+
+.clear {
+	font-family: 'Swanky and Moo Moo', cursive;
+}
+
+.small-metanowrap {
+	font-family: 'Amatic SC', cursive;
+}
+
+.suivre {
+	font-family: 'Swanky and Moo Moo', cursive;
+}
+
+.Video {
+	background-position: center;
+	background-color: #b0f2ff;
+}
+
+
+.pingouin {
+	background-image: url("images/pingouin.jpg");
+	background-position: center;
+	background-size: 60%;
+}
+
+.social {
+	color: #b0f2ff;
 }
