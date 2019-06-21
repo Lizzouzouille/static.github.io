@@ -48,7 +48,7 @@ p4 {
 	background-size: cover;
 }
 
-.catalogue: hover {
+.catalogue:hover {
 	width: 300px;
 	height: 387px;
 	object-fit: cover;
